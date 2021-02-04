@@ -40,6 +40,7 @@ body{
     border-style: solid;
     border-width: 1px;
     border-color: black;
+    border-left:none;
 }
 .inner-box{
     width:25%;
@@ -49,13 +50,14 @@ body{
     bottom:80px;
 }
 .inner-box h1{
+    padding-left:20px;
     font-size: 55px;
     margin-bottom: 0;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:lucida;
 }
 .inner-box p{
     font-size: 25px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: lucida;
     margin-left:60px;   
 }
 .bottom-box{
@@ -67,16 +69,15 @@ body{
 }
 .bottom-box h1{
     font-size: 20px;
-    font-style: italic;
     position: relative;
     bottom:80px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: "source sans pro";
 }
 .corner-box{
     width:20px;
     height: 300px;
     background-color: black;
-    margin-left: 913px;
+    margin-left: 925px;
     position: relative;
     bottom:220px;
 }
@@ -87,7 +88,19 @@ body{
     width:100px;
     height: 130px;
 }
-.favicons img{
-    width:70px;
-    height: 120px;
+.favicons li{
+    list-style: none;
+    margin: 7px 20px;
 }
+.fa {
+    padding: 5px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 2px 2px;
+     border-radius:50%;
+     background:black;
+    color: white;
+  }
+  
